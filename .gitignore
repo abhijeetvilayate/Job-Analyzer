@@ -1,0 +1,54 @@
+# Environment variables & secrets (CRITICAL - DO NOT REMOVE)
+.env
+.env.local
+.env.*.local
+*.env
+*.key
+*.pem
+credentials.json
+client_secret*.json
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / IDE configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# Generated reports & temporary artifacts (avoid committing personal resumes)
+*.pdf
+resume_analysis_report.md
+*.log
